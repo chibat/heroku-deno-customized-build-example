@@ -36,7 +36,3 @@ const startStatus = await Deno.run({
 
 console.log(`Help Exit Code: ${startStatus.code}`);
 
-//const buildDir = Deno.env.get("HEROKU_BUILD_DIR");
-//if (buildDir) {
-//  moveSync(".aleph", `${buildDir}/.aleph`);
-//}
